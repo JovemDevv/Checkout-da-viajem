@@ -65,10 +65,17 @@ body {
   display: none;
 }
 
-.success-validation {
-  color: green;
-  font-size: 24px;
-  margin-top: 10px;
+.success-message {
+  font-size: 20px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: rgba(49, 206, 75, 0.8);
+  border-radius: 10px;
+  z-index: 9999;
 }
+
+
 
   
